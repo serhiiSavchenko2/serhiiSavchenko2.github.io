@@ -62,5 +62,50 @@
             </tr>
         </table>
     </div>
+    <div>
+        <video controls 
+               width="720" 
+               height="600" >
+            <source src="img/ExampleVideo.720x480.mp4" type="video/mp4">
+            <source src="img/ExampleVideo.720x480.Ogg" type="video/ogg">
+            <source src="img/ExampleVideo.720x480.webm" type="video/webm">
+            <source src="img/ExampleVideo.720x480.mkv" type="video/mp4">
+        </video>
+        <br>
+        <audio src="img/ExampleAudio.mp3" controls>
+
+        </audio>
+    </div>
+
+    <div>
+        <form style="border: 5px solid #0500b8; padding: 10px 20px;">
+            <label for="fname">Прізвище: </label><br/>
+            <input type="text" name="fname" id="fname"/><br/>
+            <label for="sname">Ім'я: </label><br/>
+            <input type="text" name="sname" id="sname"/><br>
+            <!-- Одинарний вибір -->
+            <input type="radio" name="city" id="kh" value="Kharkiv">
+            <label for="kh">Харків</label><br>
+
+            <input type="radio" name="city" id="kv" value="Kiev">
+            <label for="kv">Київ</label><br>
+
+            <input type="radio" name="city" id="od" value="Odesa">
+            <label for="od">Одеса</label><br>
+
+            <!-- Множинний вибір -->
+            <input type="checkbox" name="winter" id="winter" value="Winter">
+            <label for="winter">Зима</label><br>
+
+            <input type="checkbox" name="spring" id="spring" value="Spring">
+            <label for="spring">Весна</label><br>
+
+            <input type="checkbox" name="summer" id="summer" value="Summer">
+            <label for="summer">Літо</label><br>
+
+            <input type="checkbox" name="autumn" id="autumn" value="Autumn">
+            <label for="autumn">Осінь</label><br>
+        </form>
+    </div>
 </body>
 </html>
